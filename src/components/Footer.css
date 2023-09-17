@@ -1,0 +1,39 @@
+.low{
+    background-color: black;
+    height: auto;
+    padding: 30px 70px;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.center1{
+    display: flex;
+}
+
+.navc1{
+    margin: auto auto;
+    list-style: none;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.line{
+height: 3px;
+background: linear-gradient(90deg, #43F4FF 0.74%, #0017E8 100.58%);
+border-radius: 16.5px;
+margin-top: 85px;
+}
+
+.copyrt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.copyrt p{
+    color: white;
+}

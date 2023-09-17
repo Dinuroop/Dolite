@@ -1,0 +1,138 @@
+/* MyWebPage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400;600;650;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 1px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgba(13, 5, 55, 0);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #79c5fc00;
+  border: 1px solid rgba(13, 5, 55, 0);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  scroll-snap-type: x proximity;
+  overflow-x: scroll;
+  display: flex;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: start;
+  flex: none;
+  overflow-x: hidden;
+}
+
+.exitb {
+  margin-top: 80px;
+  margin-left: 80px;
+  color: #2F5CD2;
+  font-size: 30px;
+}
+
+.introgd {
+  justify-content: space-between;
+  font-size: 100px;
+  font-weight: 400;
+  margin-top: 200px;
+}
+
+.fadgd {
+  font-weight: 600;
+  background: linear-gradient(to right, #21AFFF, #CDEDFF);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.rightarr {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.a2 {
+  margin-top: 600px;
+  margin-right: 100px;
+  font-size: 50px;
+  color: #174edacb;
+}
+
+.gym {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.desthe1 {
+  margin-top: 150px;
+  text-transform: uppercase;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.lorip1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.part2 {
+  margin: 0 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.vl1 {
+  width: 8px;
+  height: 600px;
+  background: linear-gradient(180deg, #0066FF 0%, rgba(21, 0, 105, 0.84) 100%);
+  border-radius: 31.5px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.part3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desthe2 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.lorip2 {
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  padding: 0 150px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.vl2 {
+  width: 10px;
+  height: 600px;
+  background: linear-gradient(180deg, #0066FF 0%, rgba(21, 0, 105, 0.84) 100%);
+  border-radius: 31.5px;
+  margin-top: 50px;
+  margin-right: 20px;
+}
