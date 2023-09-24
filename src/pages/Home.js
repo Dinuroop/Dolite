@@ -22,9 +22,9 @@ import arrow from '../Assets/arrowboat.png';
 import footimg from '../Assets/footerimg.png';
 import anilogo from '../Assets/anilogo.png';
 import Footer from '../components/Footer';
-import {BsFillArrowRightSquareFill } from "react-icons/bs";
+// import {BsFillArrowRightSquareFill } from "react-icons/bs";
 import { useNavigate } from 'react-router-dom';
-import ArrowLink from '../components/ArrowLink';
+// import ArrowLink from '../components/ArrowLink';
 import { FaArrowRight } from "react-icons/fa";
 
 
@@ -42,24 +42,21 @@ export default function Home() {
           {/* <video src="videos\hero-banner-en-1600x852.mp4" autoplay loop muted play-inline className="bgvideo"></video> */}
           <img src={pcr} className="pcr" alt='pcr'/>
           
-          {/* <img src={numone} className="noone" alt='some' /> */}
-          {/* <img src={timer} className="timer " alt='timer' /> */}
-          {/* <img src={code} className="code" alt='code' /> */}
-          {/* <p className="gd fade-in">Graphic<br/>Design</p> */}
-          {/* <img src={slantcode} className="slncd fadein"  alt='slantcode'/>
+          <img src={numone} className="noone" alt='some' />
+          <img src={timer} className="timer " alt='timer' />
+          <img src={code} className="code" alt='code' />
+          <p className="gd fade-in">Graphic<br/>Design</p>
+          <img src={slantcode} className="slncd fadein"  alt='slantcode'/>
           <img src={amico} className="amico" alt='amico' />
           <img src={Image} className="image" alt='sumaimg' />
           <img src={blankpc} className="blankpc" alt='blankpc' />
           <img src={slide1} className="slide1" alt='slide1' />
           <img src={slide2} className="slide2" alt='slide2' />
-          <img src={slide3} className="slide3" alt='slide3' /> */}
+          <img src={slide3} className="slide3" alt='slide3' />
       </div>
       <div class="service">
-        <img src={waves} class="waves" alt='waves' />
         <h1 class="ourservices">Our services</h1>
-        <div className='linearblock'>
-
-        </div>
+        <img src={waves} class="waves" alt='waves' />
     </div>
 
     <div class="hscroll">
@@ -72,7 +69,7 @@ export default function Home() {
                     <p class="sometext">extraordinary</p>
                 </div>
                 <div class="arrow1">
-                <FaArrowRight size='25%' onClick={()=>navigate('Graphic')}/>
+                <FaArrowRight size='50%' onClick={()=>navigate('Graphic')}/>
                 </div>
 
             </section>   
@@ -99,7 +96,7 @@ export default function Home() {
                     <p class="sometext">extraordinary</p>                
                   </div>
                 <div class="arrow1">
-                    <FaArrowRight size='25%' onClick={()=>navigate('Webdesign')}/>
+                    <FaArrowRight size='45%' onClick={()=>navigate('Webdesign')}/>
                 </div>
             </section>
 
@@ -163,7 +160,7 @@ export default function Home() {
         </div>
         <div >
         <div className='gapp'>
-          {/* <p className='tdd'>the deep dive</p> */}
+          <p className='tdd'>the deep dive</p>
               <img className="arrowboat" src={arrow} alt='foot'/>
           </div>
           <div>
@@ -172,11 +169,12 @@ export default function Home() {
       </div>
       <div className='unleash'>
         <div className='p-tags'>
-          <p>Unleash your Creative drive Today</p>
-        </div>
+        <p>Unleash your</p>
+          <p>Creative drive</p>
+          <p>TODAY</p> </div>
         <div className='img'>
-          {/* <img src={footimg}  className='footimg' alt='footimg'/> */}
-          {/* <button className='joinnow'>Join Now</button> */}
+          <img src={footimg}  className='footimg' alt='footimg'/>
+          <button className='joinnow'>Join Now</button> 
         </div>
       </div>
 

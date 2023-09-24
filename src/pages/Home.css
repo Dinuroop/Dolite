@@ -530,10 +530,9 @@ align-items: center;
   align-items: center;
 }
 
-.foot{
-  max-width: 100%;
-  width: auto;
-  height: 150px;
+.footimg{
+  width: 450px;
+height: 250px;
 }
 
 .p-tags{
