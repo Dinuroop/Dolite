@@ -27,8 +27,8 @@ export default function Form() {
           className="flex flex-col"
           onSubmit={handleSubmit(onSubmit)}
         >
-          <input type="text" {...register("email")} placeholder="Mail-id" />
-          <input type="password" {...register("password")} placeholder="password" />
+          <input className='sigIn' type="text" {...register("email")} placeholder="Mail-id" />
+          <input className='sigIn' type="password" {...register("password")} placeholder="password" />
           {/* <h4><strong>What should we call you?</strong></h4> */}
           {/* {errors.mobile?.type === "required" && "Mobile Number is required"}
                     {errors.mobile?.type === "maxLength" && "Max Length Exceed"} */}
